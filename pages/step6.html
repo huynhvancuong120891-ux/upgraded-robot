@@ -162,10 +162,14 @@
       .canvas-container {
           position: relative;
           margin: 20px auto;
-          max-width: 100%;
+          max-width: 900px;
           width: 100%;
           overflow-x: auto;
+          overflow-y: hidden;
           -webkit-overflow-scrolling: touch;
+          background: #f8f9fa;
+          padding: 10px;
+          border-radius: 8px;
       }
       
       #contractCanvas {
@@ -173,21 +177,47 @@
           max-width: 100%;
           height: auto;
           display: block;
+          margin: 0 auto;
           border: 2px solid #e9ecef;
           border-radius: 8px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+          background: white;
           image-rendering: -webkit-optimize-contrast;
           image-rendering: crisp-edges;
       }
       
+      /* Tablet và Mobile nhỏ */
       @media (max-width: 768px) {
           .canvas-container {
               margin: 10px 0;
-              padding: 0 10px;
+              padding: 5px;
+              max-width: 100%;
+              border-radius: 4px;
           }
           
           #contractCanvas {
-              max-width: calc(100vw - 40px);
+              max-width: 100%;
+              width: 100%;
+              border-width: 1px;
               border-radius: 4px;
+              box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+          }
+          
+          .step-description {
+              font-size: 13px;
+              padding: 0 10px;
+          }
+      }
+      
+      /* Mobile rất nhỏ */
+      @media (max-width: 480px) {
+          .canvas-container {
+              padding: 3px;
+              margin: 5px 0;
+          }
+          
+          #contractCanvas {
+              border-radius: 3px;
           }
       }
       #contractCanvas.loading {
