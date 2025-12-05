@@ -3,7 +3,7 @@ Thank you for your interest in contributing to the Shinhan Bank consumer loan we
 How to Contribute
 
 Fork the Repository: Create a fork of this repository on GitHub.
-Clone Your Fork: Clone your fork to your local machine.git clone https://github.com/your-username/shinhan-bank-web.git
+Clone Your Fork: Clone your fork to your local machine.git clone https://github.com/your-username/upgraded-robot.git
 
 
 Create a Branch: Create a new branch for your changes.git checkout -b feature/your-feature-name
