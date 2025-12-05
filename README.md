@@ -15,10 +15,10 @@ npm (v8+ recommended)
 
 Installation
 
-Clone the repository:git clone https://github.com/your-username/shinhan-bank-web.git
+Clone the repository:git clone https://github.com/huynhvancuong120891-ux/upgraded-robot.git
 
 
-Navigate to the project directory:cd shinhan-bank-web
+Navigate to the project directory:cd upgraded-robot
 
 
 Install dependencies:npm install
